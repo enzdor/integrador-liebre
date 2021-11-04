@@ -1,0 +1,86 @@
+.producto{
+    background-color: white;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#foto{
+    width: 100%;
+}
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+}
+
+.descripciones{
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+}
+
+.contenedor-precio-descuento{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+.producto p{
+    padding-left: 3%;
+}
+
+.producto h3{
+    padding-left: 3%;
+}
+
+.caja{
+    border-top: 1px solid #ebebeb;
+    position: relative;
+}
+
+.caja h3{
+    display: none;
+}
+
+.precio{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 30%;
+}
+
+#camion{
+    color: #39b54a;
+    border: #39b54a solid 1px;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 2%;
+    transition: transform 0.5s;
+}
+
+.producto:hover #camion {
+    transform: rotate(360deg);
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 2%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    text-align: center;
+    justify-content: center;
+}
